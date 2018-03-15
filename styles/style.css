@@ -41,6 +41,7 @@ header nav a:last-child{
   padding-top: 76px;
   padding-bottom: 49px;
   margin-bottom: 99px;
+  padding-left: 10px;
 }
 .main-bag-img{
   width: 252px;
@@ -54,6 +55,8 @@ header nav a:last-child{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  width: 100%;
+  padding-left: 10px;
 }
 .main-text-container h1{
   font-size: 36px;
@@ -66,8 +69,6 @@ header nav a:last-child{
 .main-bag-paragraph{
   font-size: 18px;
   margin-bottom: 56px;
-  width: 379px;
-  height: 96px; 
 }
 
 .main-bag-heading-2{
