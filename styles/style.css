@@ -35,7 +35,7 @@ header nav a:last-child{
 
 .main-bag{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   background-color: #f2f2f2;
   border: solid 1px #979797;
   padding-top: 76px;
@@ -49,16 +49,14 @@ header nav a:last-child{
   margin-left: 60px;
   margin-right: 88px;
 }
-.main-bag-container{
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-}
 
 .main-text-container{
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.main-text-container h1{
+  font-size: 36px;
 }
 .main-bag-heading{
   font-size: 36px;
