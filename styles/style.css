@@ -33,6 +33,159 @@ header nav a:last-child{
   margin: 0 auto;
 }
 
+.main-bag{
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  border: solid 1px #979797;
+  padding-top: 76px;
+  padding-bottom: 49px;
+  margin-bottom: 99px;
+}
+.main-bag-img{
+  width: 252px;
+  height: 395.4px;
+  margin-top: 4px;
+  margin-left: 60px;
+  margin-right: 88px;
+}
+.main-bag-container{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.main-text-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.main-bag-heading{
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.main-bag-paragraph{
+  font-size: 18px;
+  margin-bottom: 56px;
+  width: 379px;
+  height: 96px; 
+}
+
+.main-bag-heading-2{
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: -7px;
+}
+
+.main-bag-heading-3{
+  margin-top: -50px;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+.main-bag-heading-4{
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.main-bag-list{
+  font-size: 18px;
+  line-height: 20px;
+}
+.main-bag-btn{
+  width: 100%;
+  border: 1px solid #3d3d3d;
+  padding: 14px 0;
+  text-align: center;
+  background-color: #f2f2f2;
+  color: #3d3d3d;
+  font-size: 20px;
+  margin-top: 28px;
+  margin-left: -10px;
+}
+
+.main-bag-btn:hover{
+  cursor: pointer;
+  background-color: #3d3d3d;
+  border: solid 1px #979797;
+  color: #b9b9b9;
+}
+.bag-card{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #d8d8d8;
+  border: solid 1px #979797;
+  margin-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 26px;
+}
+.bag-card-img{
+  display: flex;
+  align-self: center;
+  width: 111.3px;
+  height: 178.4px;
+}
+.contacts{
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+}
+.contact-card-vk{
+  background-color: #5f81a9;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  margin-bottom: 50px;
+}
+.contact-card-fb{
+  background-color: #3a589c;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin-bottom: 50px;
+}
+.contact-card-tg{
+  background-color: #419fd9;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 18px;
+  margin-bottom: 50px;
+}
+.contact-card-md{
+  background-color: #00e272;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+}
+.contact-card-vk:hover{
+  cursor: pointer;
+}
+.contact-card-fb:hover{
+  cursor: pointer;
+}
+.contact-card-tg:hover{
+  cursor: pointer;
+}
+.contact-card-md:hover{
+  cursor: pointer;
+}
+.contact-card-img{
+  display: flex;
+  align-self: center;
+}
+
 .main-item{
  display: flex;
  flex-direction: column;
