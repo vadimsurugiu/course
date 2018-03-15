@@ -403,7 +403,11 @@ header nav a:last-child{
   header nav a:last-child{
     margin-bottom: 0px;
   }
-
+  .main-bag-img{
+    width: 252px;
+    height: 395.4px;
+    margin-left: 10px;
+  }
   .footer-links {
     display: flex;
     flex-direction: column;
